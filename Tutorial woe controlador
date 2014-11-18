@@ -1,0 +1,44 @@
+Horarios, dias, feudos
+
+Domingo: 20:00 as 22:00   Feudo prontera
+Quarta: 18:00 as 20:00    " "
+Sabado: 18:00 as 20:00   Feudo SCH
+
+
+
+Caso queira trocar os dias se os castelos
+
+Crie seu npc, http://sushiduy.ples...woeinfo_122.php
+
+
+procure isto,sao os dias,horarios.e os feudos no caso aqui esta no feudo de prontera e SCH
+
+
+
+setarray .woe_day[0], 0, 3, 6;
+setarray .woe_0[0], 72000,64800,64800;
+setarray .woe_1[0], 79200,72000,72000;
+setarray .woe_state[0], 0, 0, 1;
+
+setarray .woe_state_0[0],31,0,0,0,0,0,0;
+setarray .woe_state_1[0],0,0,0,0,0,31,0;
+
+
+
+Não esqueça de mudar aqui
+
+
+Dentro do arquivo scripts_guild.conf, você irá procurar por estas linhas:
+npc: npc/guild/agit_controller.txt
+npc: npc/guild2/agit_controller_se.txt
+
+
+
+Na frente das linhas encontradas, você irá colocar 'duas barras' (//) para desativar os arquivos agit_controller.txt e agit_controller_se.txt, irá ficar assim:
+//npc: npc/guild/agit_controller.txt
+//npc: npc/guild2/agit_controller_se.txt
+
+
+
+
+Obs. Não mude mas nada apenas o horário que citei acima, ou caso venha dar erro,outra coisa é bom vocês seguirem este tutorial http://forum.cronus-...oes/page__st__0, no meu emulador funciona certo, depois posto umas screens 
